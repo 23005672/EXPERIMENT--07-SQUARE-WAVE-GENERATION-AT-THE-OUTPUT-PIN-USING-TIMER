@@ -1,4 +1,4 @@
-# EXPERIMENT 06 SQUARE WAVE GENERATION AT THE OUTPUT PIN USING TIMER
+# EXPERIMENT 07 SQUARE WAVE GENERATION AT THE OUTPUT PIN USING TIMER
 
 ### Aim:
 To generate a PWM wave at the timer pin output and  simuate it on  proteus using an virtual oscilloscope  
@@ -45,10 +45,16 @@ In normal settings, assuming you’re using the timer module in PWM mode and gen
 
 
 ## Procedure:
-Step1: Open CubeMX & Create New Project.
- 
-Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed and click on next.
+Step1: Open CubeMX & Create New Project
+ ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
 
+
+Step2: Choose The Target MCU & Double-Click Its Name select the target to be programmed  as shown below and click on next 
+
+ ![image](https://user-images.githubusercontent.com/36288975/226189215-2d13ebfb-507f-44fc-b772-02232e97c0e3.png)
+![image](https://user-images.githubusercontent.com/36288975/226189230-bf2d90dd-9695-4aaf-b2a6-6d66454e81fc.png)
+
+![image](https://user-images.githubusercontent.com/36288975/226189280-ed5dcf1d-dd8d-43ae-815d-491085f4863b.png)
 
 Step3: Configure Timer2 Peripheral To Operate In PWM Mode With CH1 Output
 ![image](https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/682c851a-7dfe-4089-8395-f76088d43896)
@@ -204,16 +210,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif
 
 ```
-
-
-
-
-
- 
- 
- 
- 
-
 ## DUTY CYCLE AND FREQUENCY CALCULATION:
 ### FOR DUTY RATIO 50%
 ![Screenshot 2025-05-07 150116](https://github.com/user-attachments/assets/e226d5d0-0a76-454c-8fad-de76370a9cb1)
@@ -258,7 +254,8 @@ FREQUENCY = 1/(1.2ms) = 833.33Hz
 
  
 ## Result :
-A PWM Signal is generated using the following frequency and various duty cycles are simulated
+A PWM Signal is generated using the following frequency and various duty cycles are simulated 
+
 
 
 
